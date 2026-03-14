@@ -9,11 +9,16 @@ A full-stack dashboard for the **FuelEU Maritime** compliance workflow. This pro
 - **Pooling compliance balances** (balance across a pool of ships)
 
 
-## 🚀 Overview
+## Overview
 
 This project demonstrates a real-world compliance workflow for maritime shipping under the FuelEU regulation. The backend provides APIs for computing compliance balances, banking, and pooling; the frontend provides a clean dashboard UI to interact with the backend.
 
-## 🏗️ Architecture (Hexagonal)
+## Demo
+![Dashboard](route.png)
+![Dashboard](compare.png)
+![Dashboard](bank.png)
+![Dashboard](pool.png)
+##  Architecture (Hexagonal)
 
 The backend follows a **hexagonal (ports & adapters)** architecture:
 
@@ -25,7 +30,7 @@ The backend follows a **hexagonal (ports & adapters)** architecture:
 
 This architecture ensures the business logic is decoupled from frameworks and allows easy substitution of infrastructure components.
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React, TypeScript, TailwindCSS, Axios
 - **Backend**: Node.js, TypeScript, Express, Prisma, PostgreSQL
@@ -155,10 +160,6 @@ npm test
 The backend includes unit/integration tests that cover route comparison, compliance calculation, banking rules, and pooling rules.
 
 
-## 📸 Screenshots
 
-*(Add screenshots of the UI here before final submission; e.g., routes table, compare page, banking interaction, pooling results.)*
-
----
 
 **FuelEU Maritime Compliance Dashboard** is designed to be extendable, testable, and easy to integrate into larger compliance tooling.
