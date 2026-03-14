@@ -13,11 +13,8 @@ A full-stack dashboard for the **FuelEU Maritime** compliance workflow. This pro
 
 This project demonstrates a real-world compliance workflow for maritime shipping under the FuelEU regulation. The backend provides APIs for computing compliance balances, banking, and pooling; the frontend provides a clean dashboard UI to interact with the backend.
 
-## Demo
-![Dashboard](route.png)
-![Dashboard](compare.png)
-![Dashboard](bank.png)
-![Dashboard](pool.png)
+
+
 ##  Architecture (Hexagonal)
 
 The backend follows a **hexagonal (ports & adapters)** architecture:
